@@ -6,6 +6,14 @@
 
 <h1>Category List</h1>
 <br />
+@using (Html.BeginForm())
+{
+    <p>
+        Food Name:@Html.TextBox("p")
+        <input type="submit" value="Find" />
+    </p>
+}
+
 <table class="table table-bordered">
     <tr>
         <th>ID</th>
@@ -14,7 +22,7 @@
         <th>Delete</th>
         <th>Update</th>
     </tr>
-    @foreach(var x in Model)
+    @foreach (var x in Model)
     {
         <tr>
             <td>@x.CategoryID</td>

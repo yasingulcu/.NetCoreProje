@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "7Rpm6/07l1owt3U4De82Qegt3nQF8RI7qSJ51CgyYgbXosOm2JV2yPqk+7YiP7uK6X8oH5UUaCarj2grJonufg==",
+  "dgSpecHash": "UB6KoQd2TOXaESHZH+BiJJlC2cpRSVFgTGBhI0JJTFXZbXhK+MkHvfTf82yGiEamIywRbiaQc5z8xMBKNZtJLQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ysg02\\Desktop\\CoreCalisma\\CoreAndFood\\CoreAndFood\\CoreAndFood.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ysg02\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
+    "C:\\Users\\ysg02\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\ysg02\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\ysg02\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.2.0\\microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",
     "C:\\Users\\ysg02\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "C:\\Users\\ysg02\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
     "C:\\Users\\ysg02\\.nuget\\packages\\microsoft.aspnetcore.authorization.policy\\2.2.0\\microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512",

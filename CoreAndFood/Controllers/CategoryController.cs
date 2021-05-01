@@ -5,15 +5,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using CoreAndFood.Data.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CoreAndFood.Controllers
 {
     public class CategoryController : Controller
     {
         CategoryRepository categoryRepository = new CategoryRepository();
-        public IActionResult Index()
+        [Authorize]
+        public IActionResult Index(string p)
         {
-            
+            if(!string.IsNullOrEmpty(p))
+            {
+                return View(categoryRepository.List(x => x.CategoryName == p));
+            }
             return View(categoryRepository.TList());
         }
         [HttpGet]
